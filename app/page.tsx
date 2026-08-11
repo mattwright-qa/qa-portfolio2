@@ -7,7 +7,9 @@ const Folder = ({ className }: { className?: string }) => <span className={class
 const FileCode = ({ className }: { className?: string }) => <span className={className}>📄</span>;
 const FileText = ({ className }: { className?: string }) => <span className={className}>📝</span>;
 const Terminal = ({ className }: { className?: string }) => <span className={className}>⌨️</span>;
-const Code2 = ({ className }: { className?: string }) => <span className={className}>⚙️</span>;
+const Code2 = ({ className }: { className?: string }) => (
+  <span className={`font-bold text-xs tracking-tighter ${className}`}>&lt;/&gt;</span>
+);
 
 export default function IDEDashboard() {
   const [activeTab, setActiveTab] = useState<"resume" | string>("resume");
