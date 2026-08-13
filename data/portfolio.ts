@@ -12,7 +12,7 @@ export const portfolioData = {
       github: "https://github.com/mattwright-qa/savarus"
     },
     summary:
-      "Software Quality Assurance Tester with hands-on manual testing, bug reporting, and test case creation experience across crowd-testing platforms and a self-directed automation project using Playwright, TypeScript, and the Page Object Model. Brings 3+ years of professional discipline verifying finished output against exact specifications, documenting defects, and testing software after system updates. Detail-oriented and comfortable working within structured, standards-driven processes, with strong interest in developing and maintaining software quality.",
+      "Software Quality Assurance Tester with hands-on manual testing, bug reporting, and test case creation experience across crowd-testing platforms and a self-directed automation project using Playwright, TypeScript, and the Page Object Model. Brings 5 years of professional discipline verifying finished output against exact specifications, documenting defects, and testing software after system updates. Detail-oriented and comfortable working within structured, standards-driven processes, with strong interest in developing and maintaining software quality.",
     skills: [
       "Manual & Functional Testing",
       "Playwright",
