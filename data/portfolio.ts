@@ -1,3 +1,5 @@
+import { User } from "lucide-react"
+
 export const portfolioData = {
   resume: {
     title: "RESUME.md",
@@ -23,7 +25,9 @@ export const portfolioData = {
       "Page Object Model (POM)",
       "Git & GitHub",
       "Agile/Scrum",
-      "Selenium WebDriver"
+      "Selenium WebDriver",
+      "Python",
+      "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)"
     ],
     experience: [
       {
@@ -37,26 +41,26 @@ export const portfolioData = {
         ]
       },
       {
-        role: "CNC Press Brake Operator / Machinist",
+        role: "IT Help Desk Technician",
         company: "REV Group Ambulance",
         period: "Nov 2023 - Feb 2026",
         location: "Orlando, FL",
         details: [
-          "Tested and validated machine control system software following system updates, identifying and reporting issues such as lagging, unexpected shutdowns, and glitches to ensure stability before returning to production.",
-          "Performed quality control and quality assurance checks on finished parts, verifying end results against blueprint specifications using high-tolerance measurement tools.",
-          "Verified machine setup and raw material quality prior to production runs to ensure parts met specification from the first cycle.",
-          "Maintained detailed production and quality logs to track part measurements and setup parameters."
+          "Employees needed fast, reliable issue resolution to stay productive: managed and resolved help desk tickets covering hardware, software, and network issues, prioritizing by severity and tracking each through to closure." ,
+          "User access issues threatened productivity and security: administered Active Directory — account creation, password resets, and group/permissions management — to keep employees securely connected to the systems they needed." ,
+          "Unfamiliar or complex issues needed accurate root-cause identification, not guesswork: researched error messages, vendor documentation, and internal knowledge bases to diagnose and resolve tickets rather than escalating unresolved." ,
+          "Software problems disrupted daily operations: provided software installation, configuration, and troubleshooting support across the organization, verifying each fix worked before closing the ticket — the same close-the-loop verification used in QA defect resolution."
         ]
       },
       {
-        role: "CNC Machinist",
+        role: "IT Help Desk Technician",
         company: "Ballistic Advantage",
         period: "Jan 2020 - Oct 2023",
         location: "Ocoee, FL",
         details: [
-          "Performed quality control and quality assurance checks on finished parts, verifying end results against blueprint specifications using high-tolerance measurement tools.",
-          "Edited machine control code and parameters to correct measurement deviations when part output fell outside tolerance, restoring accuracy to specification.",
-          "Verified machine setup and material quality prior to production runs and maintained production and quality logs."
+          "Staff across departments needed responsive IT support: fielded and resolved help desk tickets for hardware, software, and connectivity issues, documenting steps taken and outcomes for each." ,
+          "User provisioning and system access needed consistent management: maintained Active Directory accounts, permissions, and group memberships, and researched recurring issues to build repeatable troubleshooting steps rather than relying on temporary workarounds." ,
+          "End users needed working software to stay productive: provided software installation, configuration, and troubleshooting support, confirming each fix resolved the issue before closing the ticket." 
         ]
       }
     ],
